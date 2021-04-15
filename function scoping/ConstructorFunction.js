@@ -23,7 +23,6 @@ function Rectangle(length, breadth, height) {
     }
 
 }
-
 const rect1 = new Rectangle(10, 20, 30);
 rect1.area();
 rect1.perimeter();
