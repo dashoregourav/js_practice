@@ -13,17 +13,18 @@ function Rectangle(length, breadth, height) {
     this.height = height;
 
     this.area = function () {
-        console.log("Area of rectangle=",this.length * this.breadth);
+        console.log("Area of rectangle=", this.length * this.breadth);
     }
     this.perimeter = function () {
-        console.log("Perimeter of rectangle=",2 * (this.length + this.breadth));
+        console.log("Perimeter of rectangle=", 2 * (this.length + this.breadth));
     }
     this.volume = function () {
-        console.log("Volume of rectagle=",length * breadth * height);
+        console.log("Volume of rectagle=", length * breadth * height);
     }
 
 }
 const rect1 = new Rectangle(10, 20, 30);
+
 rect1.area();
 rect1.perimeter();
 rect1.volume();
